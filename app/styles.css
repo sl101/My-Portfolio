@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	@font-face {
+		font-family: 'GeistVF';
+		font-style: normal;
+		font-weight: 400;
+		font-display: swap;
+		src: url("./fonts/GeistVF.woff") format('woff');
+	}
+
+	@font-face {
+		font-family: 'Roboto-regular';
+		font-style: normal;
+		font-weight: 400;
+		font-display: swap;
+		src: url("./fonts/Roboto-Regular.woff2") format('woff2');
+	}
+
+	@font-face {
+		font-family: 'Roboto-medium';
+		font-style: normal;
+		font-weight: 400;
+		font-display: swap;
+		src: url("./fonts/Roboto-Medium.woff2") format('woff2');
+	}
+}
+
+@layer components {
+	.flex-between-center {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+}
+
+html {
+	font-family: "GeistVF";
+	scroll-behavior: smooth;
+}
