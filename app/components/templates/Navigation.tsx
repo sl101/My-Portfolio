@@ -9,6 +9,7 @@ export const Navigation = () => {
 		{ id: 1, path: "#about", value: "About" },
 		{ id: 2, path: "#contacts", value: "Contacts" },
 	];
+	console.log(pathname);
 	return (
 		<nav>
 			<ul className="flex-between-center gap-4">
