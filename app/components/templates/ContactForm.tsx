@@ -3,10 +3,10 @@ import { sendForm } from "@/app/apiRequests/sendEmailForm";
 export const ContactForm  = () =>{
 	async function sendEmailForm(form: FormData) {
 		"use server";
-		const name = form.get("name")?.toString();
-		const phone = form.get("phone")?.toString();
-		const email = form.get("email")?.toString();
-		const message = form.get("message")?.toString();
+		const name = form.get("name")?.toString() || "";
+		const phone = form.get("phone")?.toString() || "";
+		const email = form.get("email")?.toString() || "";
+		const message = form.get("message")?.toString() || "";
 
 		const feedback = {
 			name,
