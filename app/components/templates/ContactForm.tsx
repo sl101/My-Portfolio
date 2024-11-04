@@ -2,7 +2,6 @@ import { sendForm } from "@/app/apiRequests/sendEmailForm";
 
 export const ContactForm  = () =>{
 	async function sendEmailForm(form: FormData) {
-		"use server";
 		const name: string = form.get("name")?.toString() || "";
 		const phone: string = form.get("phone")?.toString() || "";
 		const email: string = form.get("email")?.toString() || "";

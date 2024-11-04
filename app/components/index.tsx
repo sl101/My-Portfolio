@@ -10,4 +10,4 @@ import {About} from "./layouts/About"
 import {Portfolio} from "./layouts/Portfolio"
 import {Contacts} from "./layouts/Contacts"
 
-export {Header, Footer, Hero, About, Portfolio, Contacts, LangBox, Logo, Navigation, ContactForm}
+export {Header, Footer, Hero, About, Portfolio, Contacts, LangBox, Logo, Navigation, ContactForm, NavLink}

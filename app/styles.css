@@ -8,7 +8,7 @@
 		font-style: normal;
 		font-weight: 400;
 		font-display: swap;
-		src: url("../public/fonts/GeistVF.woff") format('woff');
+		src: url("./public/fonts/GeistVF.woff") format('woff');
 	}
 
 	@font-face {
@@ -16,7 +16,7 @@
 		font-style: normal;
 		font-weight: 400;
 		font-display: swap;
-		src: url("../public/fonts/Roboto-Regular.woff2") format('woff2');
+		src: url("./public/fonts/Roboto-Regular.woff2") format('woff2');
 	}
 
 	@font-face {
@@ -24,7 +24,7 @@
 		font-style: normal;
 		font-weight: 400;
 		font-display: swap;
-		src: url("../public/fonts/Roboto-Medium.woff2") format('woff2');
+		src: url("./public/fonts/Roboto-Medium.woff2") format('woff2');
 	}
 }
 
@@ -39,4 +39,5 @@
 html {
 	font-family: "GeistVF";
 	scroll-behavior: smooth;
+	line-height: 1rem;
 }

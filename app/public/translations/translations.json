@@ -1,0 +1,18 @@
+{
+	"en": {
+		"header": {
+			"about": "About",
+			"contacts": "Contacts",
+			"portfolio": "Portfolio",
+			"resume": "Resume"
+		}
+	},
+	"de": {
+		"header": {
+			"about": "Über",
+			"contacts": "Kontakte",
+			"portfolio": "Portfolio",
+			"resume": "Lebenslauf"
+		}
+	}
+}
