@@ -16,11 +16,11 @@ export const LangBox = () => {
 
 	return (
 		<div className="text-white flex flex-col items-center gap-1">
-			<button className={`${lang==="en" && "text-accent-orange"}`}
+			<button className={`${lang==="en" && "text-accent-orange"} focus:outline-none`}
 			onClick={handleSwitchLangToEn}>
 				EN
 			</button>
-			<button className={`${lang==="de" && "text-accent-orange"}`}
+			<button className={`${lang==="de" && "text-accent-orange"} focus:outline-none`}
 			onClick={handleSwitchLangToDe}>
 				DE
 			</button>
