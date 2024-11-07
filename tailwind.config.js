@@ -14,6 +14,10 @@ module.exports = {
 			fontFamily: {
 				'sans': ['"GeistVF"', '"Roboto-regular"', '"Roboto-medium"'],
 			},
+			backgroundImage: {
+				"contact-image": "url('/img/bg/webdev.jpg')",
+				"about-image": "url('/img/bg/matrix3.jpg')"
+			},
 		},
 		colors: {
 			'white': '#fff',

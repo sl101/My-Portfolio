@@ -14,7 +14,7 @@ export const Navigation = () => {
 
 	return (
 		<nav className="flex-between-center w-1/3 text-lg">
-			<ul className="flex-between-center w-full  gap-8 text-white">
+			<ul className="flex-between-center w-full  gap-8">
 				{linksList.map((link) => (
 					<NavLink key={link.id} link={link}/>
 				))}

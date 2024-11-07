@@ -1,3 +1,4 @@
+"use client"
 import { sendForm } from "@/app/apiRequests/sendEmailForm";
 
 export const ContactForm  = () =>{

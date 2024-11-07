@@ -1,7 +1,7 @@
 "use client"
 import { useUnit } from "effector-react"
 import { $lang } from "@/app/context/lang"
-import translationsJson from "@/app/public/translations/translations.json"
+import translationsJson from "@/public/translations/translations.json"
 
 
 export const useLang = () => {

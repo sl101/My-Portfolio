@@ -1,7 +1,7 @@
 import { About, Contacts, Hero, Portfolio } from "./components";
 
 export default function Page() {
-  return <main>
+  return <main >
 		<Hero/>
 		<About/>
 		<Portfolio/>
