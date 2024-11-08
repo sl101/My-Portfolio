@@ -1,11 +1,11 @@
 export const About = () => {
 	return (
-		<section id="about" className="bg-about-image w-full h-screen bg-no-repeat bg-center bg-cover">
-			<div className="container">
+		<section id="about" className="section relative bg-about-image w-full h-screen bg-no-repeat bg-center bg-cover before:bg_shadow">
+			<div className="container relative z-20">
 				<div className="">
 
 					<div className="">
-						<h2 className="">
+						<h2 className="title">
 							Who I am
 						</h2>
 

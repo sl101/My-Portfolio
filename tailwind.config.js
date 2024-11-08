@@ -32,12 +32,13 @@ module.exports = {
 		container: {
 			center: true,
 			padding: {
-				DEFAULT: '0.5rem',
-				sm: '1rem',
+				DEFAULT: '1vw',
+				//sm: '1vw',
 			},
 		},
 		screens: {
-			'fullhd': '1920px',
+			'hd': '1920px',
+
 		},
 	},
 	plugins: [],

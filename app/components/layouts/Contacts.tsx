@@ -2,12 +2,14 @@ import { ContactForm } from "../templates/ContactForm"
 
 export const Contacts = () => {
 	return (
-		<section id="contacts" className="bg-contact-image w-full h-screen bg-no-repeat bg-center bg-cover">
-		<div className="container">
+		<section id="contacts" className="section relative bg-contact-image w-full h-screen bg-no-repeat bg-center bg-cover before:bg_shadow">
+		<div className="container relative z-20">
 			<div className="">
-				<h2 className="">
+				{/*<div className="text-center md:text-left">*/}
+				<h2 className="title">
 					Contacts
 				</h2>
+				{/*</div>*/}
 
 				<div className="">
 					<p>
