@@ -38,7 +38,6 @@ module.exports = {
 		},
 		screens: {
 			'hd': '1920px',
-
 		},
 	},
 	plugins: [],

@@ -3,7 +3,7 @@ import { useLang } from "@/app/hooks/useLang";
 import { NavLink } from "./NavLink";
 
 export const Navigation = () => {
-	const {lang, translations} = useLang()
+	const {lang, translations} = useLang();
 
 	const linksList = [
 		{ id: 1, path: "#about", value: translations[lang].header.about, target: "_self" },

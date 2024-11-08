@@ -1,6 +1,7 @@
 import {Header} from "./modules/Header"
 import {Footer} from "./modules/Footer"
 import {LangBox} from "./elements/LangBox"
+import {Burger} from "./elements/Burger"
 import {Logo} from "./elements/Logo"
 import {WhatsAppContact} from "./elements/WhatsAppContact"
 import {Navigation} from "./templates/Navigation"
@@ -11,4 +12,4 @@ import {About} from "./layouts/About"
 import {Portfolio} from "./layouts/Portfolio"
 import {Contacts} from "./layouts/Contacts"
 
-export {Header, Footer, Hero, About, Portfolio, Contacts, LangBox, Logo, WhatsAppContact, Navigation, ContactForm, NavLink}
+export {Header, Footer, Hero, About, Portfolio, Contacts, LangBox, Burger, Logo, WhatsAppContact, Navigation, ContactForm, NavLink}
