@@ -48,20 +48,20 @@
 		border-bottom: 1px solid theme('colors.accent-orange');
 	}
 
-	.burger {
-		width: 24px;
-		height: 24px;
-		display: none;
-	}
+	/*.burger {*/
+	/*width: 24px;*/
+	/*height: 24px;*/
+	/*display: none;*/
+	/*}*/
 
 	@media (max-width: 1024px) {
 		.section {
 			text-align: center;
 		}
 
-		.burger {
-			display: block;
-		}
+		/*.burger {*/
+		/*display: block;*/
+		/*}*/
 	}
 }
 

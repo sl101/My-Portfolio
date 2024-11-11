@@ -1,7 +1,6 @@
 "use client"
 import { closeMenu, openMenu } from "@/app/context/burger";
 import { useBurger } from "@/app/hooks/useBurger";
-import { useState } from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { RxCross2 } from "react-icons/rx";
 
@@ -18,7 +17,7 @@ export const Burger = () => {
 	}
 
 	return (
-		<button className="burger" onClick={handleSwitchBurger}>
+		<button className="w-6 h-6" onClick={handleSwitchBurger}>
 			{!isActive ? <RxHamburgerMenu className="w-full h-full" /> : <RxCross2 className="w-full h-full"/> }		
 		</button>
 	)
