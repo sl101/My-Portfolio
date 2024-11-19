@@ -1,7 +1,10 @@
 "use client"
 import { sendForm } from "@/app/apiRequests/sendEmailForm";
+import { useLang } from "@/app/hooks/useLang";
 
-export const ContactForm  = () =>{
+export const ContactForm = () => {
+	const { lang, translations } = useLang();
+
 	async function sendEmailForm(form: FormData) {
 		const name: string = form.get("name")?.toString() || "";
 		const phone: string = form.get("phone")?.toString() || "";
@@ -17,31 +20,28 @@ export const ContactForm  = () =>{
 
 		await sendForm(feedback);
 	}
+
+	const formInputs = [
+		{ id: 1, type: "text", name: "name", placeholder: translations[lang].contacts.form[0] },
+		{ id: 2, type: "tel", name: "phone", placeholder: translations[lang].contacts.form[1] },
+		{ id: 3, type: "email", name: "email", placeholder: translations[lang].contacts.form[2] },
+	]
+
+	const formTextArea = translations[lang].contacts.form[3]
+	const formButton = translations[lang].contacts.btn
 	return (
-		<section>
-			<div className="container">
-				<div className="">
-					<form id="feedback_form" action={sendEmailForm}>
-						<label>
-							<input type="text" name="name" required placeholder="Name" />
-						</label>
+		<form id="feedback_form"
+			className="w-1/2 max-[1024px]:w-4/5 max-[1024px]:mx-auto mt-12 flex flex-col gap-5"
+			action={sendEmailForm}>
+			{formInputs.map(input => <label key={input.id}>
+				<input className="input placeholder-style"
+					type={input.type} name={input.name}  placeholder={input.placeholder} required/>
+			</label>)}
+			<label>
+				<textarea className="input placeholder-style" name="message"  placeholder={formTextArea} required/>
+			</label>
 
-						<label>
-							<input type="tel" name="phone" required placeholder="Phone" />
-						</label>
-
-						<label>
-							<input type="email" name="email" required placeholder="E-mail" />
-						</label>
-
-						<label>
-							<textarea name="message" required placeholder="Your message" />
-						</label>
-
-						<button>Send</button>
-					</form>
-				</div>
-			</div>
-		</section>
+			<button>{formButton}</button>
+		</form>
 	);
 }

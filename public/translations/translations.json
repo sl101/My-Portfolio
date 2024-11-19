@@ -5,6 +5,12 @@
 			"contacts": "Contacts",
 			"portfolio": "Portfolio",
 			"resume": "Resume"
+		},
+		"contacts": {
+			"title": "Contacts",
+			"subtitle": "You can send me a message to contact me.",
+			"form": ["Name", "Phone", "E-mail", "Your message"],
+			"btn": "Send"
 		}
 	},
 	"de": {
@@ -13,6 +19,12 @@
 			"contacts": "Kontakte",
 			"portfolio": "Portfolio",
 			"resume": "Lebenslauf"
+		},
+		"contacts": {
+			"title": "Kontakte",
+			"subtitle": "Sie können mir eine Nachricht senden, um Kontakt mit mir aufzunehmen.",
+			"form": ["Name", "Telefon", "E-mail", "Ihre Nachricht"],
+			"btn": "Schicken"
 		}
 	}
 }
