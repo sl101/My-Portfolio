@@ -38,10 +38,10 @@ export const ContactForm = () => {
 					type={input.type} name={input.name}  placeholder={input.placeholder} required/>
 			</label>)}
 			<label>
-				<textarea className="input placeholder-style" name="message"  placeholder={formTextArea} required/>
+				<textarea className="input placeholder-style min-h-40" name="message"  placeholder={formTextArea} required/>
 			</label>
 
-			<button>{formButton}</button>
+			<button className="border-2 w-2/3 rounded-lg px-5 py-2 outline-none transition-color duration-500 hover:text-accent-orange focus:text-accent-orange hover:border-white hover:bg-white text-xl max-[1024px]:mx-auto font-['Roboto-regular']">{formButton}</button>
 		</form>
 	);
 }

@@ -6,6 +6,7 @@ export const sendForm = async (feedback: {
 	email: string,
 	message: string,
 }) => {
+	
 	await fetch(SERVER_URL + "/email/feedback", {
 		method: "POST",
 		headers: {

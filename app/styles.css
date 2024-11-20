@@ -22,7 +22,7 @@
 	@font-face {
 		font-family: 'Roboto-medium';
 		font-style: normal;
-		font-weight: 400;
+		font-weight: 500;
 		font-display: swap;
 		src: url("../public/fonts/Roboto-Medium.woff2") format('woff2');
 	}
@@ -49,6 +49,7 @@
 	}
 
 	.input{
+		font-family: "Roboto-regular";
 		width: 100%;
 		color: theme('colors.original-tean');
 		padding-inline: 1.25rem;
