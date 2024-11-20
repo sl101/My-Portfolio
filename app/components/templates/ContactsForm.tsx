@@ -2,7 +2,7 @@
 import { sendForm } from "@/app/apiRequests/sendEmailForm";
 import { useLang } from "@/app/hooks/useLang";
 
-export const ContactForm = () => {
+export const ContactsForm = () => {
 	const { lang, translations } = useLang();
 
 	async function sendEmailForm(form: FormData) {
@@ -20,6 +20,8 @@ export const ContactForm = () => {
 
 		await sendForm(feedback);
 	}
+
+	// TODO: toast function with success message
 
 	const formInputs = [
 		{ id: 1, type: "text", name: "name", placeholder: translations[lang].contacts.form[0] },

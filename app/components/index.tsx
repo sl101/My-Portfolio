@@ -3,13 +3,14 @@ import {Footer} from "./modules/Footer"
 import {LangBox} from "./elements/LangBox"
 import {Burger} from "./elements/Burger"
 import {Logo} from "./elements/Logo"
+import {ContactsHeader} from "./elements/ContactsHeader"
 import {WhatsAppContact} from "./elements/WhatsAppContact"
 import {Navigation} from "./templates/Navigation"
 import {NavLink} from "./templates/NavLink"
-import {ContactForm} from "./templates/ContactForm"
+import {ContactsForm} from "./templates/ContactsForm"
 import {Hero} from "./layouts/Hero"
 import {About} from "./layouts/About"
 import {Portfolio} from "./layouts/Portfolio"
 import {Contacts} from "./layouts/Contacts"
 
-export {Header, Footer, Hero, About, Portfolio, Contacts, LangBox, Burger, Logo, WhatsAppContact, Navigation, ContactForm, NavLink}
+export {Header, Footer, Hero, About, Portfolio, Contacts, LangBox, Burger, Logo, WhatsAppContact, ContactsHeader, Navigation, ContactsForm, NavLink}
