@@ -25,8 +25,6 @@ export const Burger = () => {
 			closeMenu()
 		} else {
 			openMenu();
-			const body = document.querySelector('body');
-			
 		}
 	}
 
